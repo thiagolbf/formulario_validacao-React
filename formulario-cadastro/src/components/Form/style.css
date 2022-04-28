@@ -1,0 +1,34 @@
+form {
+  display: flex;
+  flex-direction: column;
+  border: 3px black solid;
+  padding: 30px;
+  background-color: lightgray;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px 5px #000000;
+}
+
+form input {
+  width: 200px;
+  margin: 15px;
+}
+
+form span {
+  width: 150px;
+  font-size: 12px;
+  text-align: justify;
+  margin-left: 15px;
+  color: red;
+}
+
+form button {
+  width: 150px;
+  margin: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  align-self: center;
+}
+
+form button:hover {
+  cursor: pointer;
+}

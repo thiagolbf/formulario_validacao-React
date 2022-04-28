@@ -1,0 +1,17 @@
+.registredContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.registredContainer button {
+  width: 100px;
+  margin: 20px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.registredContainer button:hover {
+  cursor: pointer;
+}
